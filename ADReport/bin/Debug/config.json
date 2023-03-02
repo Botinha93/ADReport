@@ -1,0 +1,44 @@
+[
+  {
+    "op": "users",
+    "props": [ "name", "UserPrincipalName", "lastLogon", "Enabled", "DisplayName", "mail", "canonicalName" ],
+    "name": "AllUserAD - Usuarios",
+    "filepath": "C:\\temp\\"
+  },
+  {
+    "op": "Groups",
+    "props": [ "Name", "DistinguishedName" ],
+    "name": "AllGroups - Groups",
+    "filepath" : "C:\\temp\\"
+  },
+  {
+    "op": "Computer",
+    "props": [ "Name", "PasswordLastSet", "OperatingSystem", "DNSHostName", "DistinguishedName", "Enabled" ],
+    "name": "AllComputers",
+    "filepath": "C:\\temp\\"
+  },
+  {
+    "op": "Trust",
+    "props": [ "Name", "Direction", "Target", "Source" ],
+    "name": "AllTrustRelations",
+    "filepath": "C:\\temp\\"
+  },
+  {
+    "op": "Subnets",
+    "props": [ "displayName", "siteObject", "location", "Description" ],
+    "name": "AllSubnets",
+    "filepath": "C:\\temp\\"
+  },
+  {
+    "op": "DomainController",
+    "props": [ "Name", "tnetworkAddress", "msDS-SiteName", "OperatingSystem" ],
+    "name": "AllDomainCont",
+    "filepath": "C:\\temp\\"
+  },
+  {
+    "op": "ou",
+    "props": [ "Name", "DistinguishedName" ],
+    "name": "AllOU",
+    "filepath": "C:\\temp\\"
+  }
+]
